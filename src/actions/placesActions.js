@@ -11,10 +11,15 @@ export const fetchPlaces = (query = 'Batu') => async (dispatch) => {
     const googleURL = process.env.NODE_ENV === 'development' ? '/api/place/textsearch' :
     `${process.env.REACT_APP_GOOGLE_MAP_URL}/api/place/textsearch`
     console.log(googleURL)
-    console.log('sending1234d44s')
+    console.log('sending1234d44sss')
      await fetch(`${googleURL}/json?query=${query}&key=${process.env.REACT_APP_GOOGLE_API_KEY}`,
       {
-      mode: 'no-cors'
+      mode: 'no-cors',
+      headers: {
+        'Access-Control-Allow-Origin' : "*",
+        'Content-Type': 'application/json'
+      },
+      method: 'GET'
       })
       .then((response) => response.json())
       .then((data) => {

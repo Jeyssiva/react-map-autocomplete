@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "proxy" : "https://maps.googleapis.com/maps",
   "homepage": "http://jeyssiva.github.io/react-map-autocomplete",
   "dependencies": {
     "@material-ui/core": "^4.12.4",

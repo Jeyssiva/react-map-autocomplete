@@ -29,12 +29,13 @@ const MapContainer = ({classes, searchResults}) => {
   const [popValue,setPopValue] = useState('');
 
   const onPlaceChanged = (place) => {
+    if(!place || !place.geometry || !place.geometry.location) return null
     setCenter({ lat: place.geometry.location.lat, lng: place.geometry.location.lng });
     setMarker({ lat: place.geometry.location.lat, lng: place.geometry.location.lng });
   };
 
   useEffect(()=>{
-    dispatch(fetchPlaces());
+    dispatch(fetchPlaces('Batu'));
   },[])
 
   const mapStyles = {

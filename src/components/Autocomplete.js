@@ -4,6 +4,7 @@ import Autocomplete from "@material-ui/lab/Autocomplete";
 import { connect, useDispatch } from "react-redux";
 import { LocationOn } from "@material-ui/icons"
 import { GET_SEARCH_RESULT } from "../constants/placesConstants";
+import { fetchPlaces } from "../actions/placesActions";
 
 const AutocompleteInput = ({locations, onPlaceSelected, popValue}) => {
   const [value, setValue] = React.useState(null)
@@ -20,6 +21,7 @@ const AutocompleteInput = ({locations, onPlaceSelected, popValue}) => {
       options={locations}
       getOptionLabel={(option) => option && `${option.name},${option.formatted_address}`}
       onChange = {(event, selectedPlace) => {
+        if(!selectedPlace) return null
         setValue(selectedPlace)
         onPlaceSelected(selectedPlace)
         dispatch({type: GET_SEARCH_RESULT, inputValue: selectedPlace})
@@ -27,6 +29,7 @@ const AutocompleteInput = ({locations, onPlaceSelected, popValue}) => {
       inputValue={inputValue}
       onInputChange={(event, newInputValue) => {
         setInputValue(newInputValue);
+        dispatch(fetchPlaces(newInputValue))
       }}
       renderOption={(props, option) => (
         <Box component="li" {...props}>
@@ -37,7 +40,7 @@ const AutocompleteInput = ({locations, onPlaceSelected, popValue}) => {
       renderInput={(params) => (
         <TextField
           {...params}
-          label="Enter a location"
+          label="Choose a Location"
           margin="normal"
           variant="outlined"
           InputProps={{ ...params.InputProps, type: "search" }}

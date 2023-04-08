@@ -15,16 +15,16 @@ const AutocompleteInput = ({locations, onPlaceSelected, popValue}) => {
     setInputValue(popValue)
   }, [popValue])
 
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${inputValue}&key=${process.env.REACT_APP_GOOGLE_API_KEY}&callback=handleResponse`;
-    document.body.appendChild(script);
+  // useEffect(() => {
+  //   const script = document.createElement('script');
+  //   script.src = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${inputValue}&key=${process.env.REACT_APP_GOOGLE_API_KEY}&callback=handleResponse`;
+  //   document.body.appendChild(script);
 
-    return () => {
-      // Clean up the script tag when the component is unmounted
-      document.body.removeChild(script);
-    };
-  }, [inputValue]);
+  //   return () => {
+  //     // Clean up the script tag when the component is unmounted
+  //     document.body.removeChild(script);
+  //   };
+  // }, [inputValue]);
 
   return (
     <Autocomplete

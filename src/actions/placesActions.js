@@ -11,12 +11,11 @@ export const fetchPlaces = (query) => async (dispatch) => {
     const googleURL = process.env.NODE_ENV === 'development' ? '/api/place/textsearch/' :
     `${process.env.REACT_APP_GOOGLE_MAP_URL}/api/place/textsearch`
     console.log(googleURL)
+    console.log('sent')
      await fetch(`${googleURL}/json?query=${query}&key=${process.env.REACT_APP_GOOGLE_API_KEY}`,
       {
       method: "GET",
       headers: {
-        'Access-Control-Allow-Origin' : "*",
-        'Content-Type': 'application/json',
         mode: 'no-cors'
       }})
       .then((response) => response.json())

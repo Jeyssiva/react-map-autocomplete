@@ -14,6 +14,18 @@ const AutocompleteInput = ({locations, onPlaceSelected, popValue}) => {
   useEffect(() => {
     setInputValue(popValue)
   }, [popValue])
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${inputValue}&key=<API_KEY>&callback=handleResponse`;
+    document.body.appendChild(script);
+
+    return () => {
+      // Clean up the script tag when the component is unmounted
+      document.body.removeChild(script);
+    };
+  }, [inputValue]);
+
   return (
     <Autocomplete
       style={{width: '94%'}}

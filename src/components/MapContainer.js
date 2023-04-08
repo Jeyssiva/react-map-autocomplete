@@ -35,7 +35,7 @@ const MapContainer = ({classes, searchResults}) => {
   };
 
   useEffect(()=>{
-    dispatch(fetchPlaces('Batu'));
+    dispatch(fetchPlaces());
   },[])
 
   const mapStyles = {

@@ -1,29 +1,4 @@
 {
-    "places" : [
-        {"name" : "Bako National Park", "longitude" : 110.469702, "latitude" : 1.433869 , "zoom": 12, "categories": [5,1]},
-        {"name" : "Batu Caves", "longitude" :101.688747 , "latitude" : 3.253661, "zoom": 12, "categories": [2,3,5,1]},
-        {"name" : "Borneo Rainforest Lodge", "longitude" :115.624748 , "latitude" : 3.558639, "zoom": 12, "categories": [5,1]},
-        {"name" : "Cameron Highlands", "longitude" : 101.387727, "latitude" : 4.483693, "zoom": 11, "categories": [4,5,1]},
-        {"name" : "Danum Valley", "longitude" : 117.827124, "latitude" : 4.425836, "zoom": 12, "categories": [2,5,1]},
-        {"name" : "George Town, Penang", "longitude" : 100.328873, "latitude" : 5.417816, "zoom": 13, "categories": [4,1]},
-        {"name" : "Gunung Mulu National Park", "longitude" : 114.745536, "latitude" : 4.064708, "zoom": 12,"categories": [4,5,1]},
-        {"name" : "Ipoh", "longitude" : 101.082976, "latitude" : 4.588642, "zoom": 12, "categories": [4,5,1]},
-        {"name" : "Johor Bahru", "longitude" : 103.757813, "latitude" : 1.465027 , "zoom": 11, "categories": [4,5,1]},
-        {"name" : "Kinabalu National Park", "longitude" : 116.679291, "latitude" : 6.077567, "zoom": 10, "categories": [5,1]},
-        {"name" : "Sri Maha Mariamman Temple", "longitude" : 101.6932, "latitude" : 3.1465, "zoom": 13, "categories": [3,5,1]},
-        {"name" : "Thean Hou Temple", "longitude" : 101.6756, "latitude" : 3.1348, "zoom": 13, "categories": [3,5,1]},
-        {"name" : "Cheng Hoon Teng Temple", "longitude" : 102.2429, "latitude" : 3.1465, "zoom": 13,"categories": [3,5,1]},
-        {"name" : "Sam Poh Tong Temple", "longitude" : 101.2124, "latitude" : 4.5866, "zoom": 12,"categories": [3,5,1]},
-        {"name" : "Baram, Sarawak", "longitude" :115.6075, "latitude" : 3.4636, "zoom": 9.87,"categories": [2,1]},
-        {"name" : "Apau Ping", "longitude" :115.6084, "latitude" : 3.3853, "zoom":  9.25,"categories": [2,1]}
-    ],
-    "categories" :[
-        {"id":1, "name": "All"},
-        {"id":2, "name":"Streets"},
-        {"id":3, "name":"Temples"},
-        {"id":4, "name": "Cities"},
-        {"id":5, "name":"Famous Locations"}
-    ],
     "results" :[
         {
             "formatted_address" : "Sarawak, Malaysia",
@@ -44,6 +19,675 @@
                 }
             },
             "name" : "Batu Caves"
+        }, {
+            "formatted_address" : "69, Jalan Pekan Darat, 13800 Butterworth, Pulau Pinang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.4541469,
+                  "lng" : 100.4015226
+               }
+            },
+            "name" : "V MART BUTTERWORTH"
+        },
+        {
+            "formatted_address" : "Kulim, 09000 Kulim, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.371734200000001,
+                  "lng" : 100.5553152
+               }
+            },
+            "name" : "V"
+        },
+        {
+            "formatted_address" : "33300 Gerik, Perak, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.4492441,
+                  "lng" : 101.155642
+               }
+            },
+            "name" : "V Auto Accessories"
+        },
+        {
+            "formatted_address" : "865, Jalan Aman, Taman Sejahtera Jaya, 09600 Lunas, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.424243,
+                  "lng" : 100.537244
+               }
+            },
+            "name" : "V Auto Tint And Accessories"
+        },
+        {
+            "formatted_address" : "Bandar Puteri Jaya, 08000 Sungai Petani, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.612811700000001,
+                  "lng" : 100.5329086
+               }
+            },
+            "name" : "V Jaya 88 Enterprise"
+        },
+        {
+            "formatted_address" : "140, Jalan Dato Keramat, George Town, 10150 George Town, Pulau Pinang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.4132151,
+                  "lng" : 100.3255188
+               }
+            },
+            "name" : "V TEN MARKETING SDN BHD (GEORGETOWN)"
+        },
+        {
+            "formatted_address" : "Pusat Perniagaan Maju Jaya, 14000 Bukit Mertajam, Penang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.352200499999999,
+                  "lng" : 100.4723892
+               }
+            },
+            "name" : "V Vegas Club"
+        },{
+            "formatted_address" : "No. 58 Ground Floor, 4, Jalan Lembah Permai, Taman Lembah Permai, 14000 Bukit Mertajam, Penang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.3491842,
+                  "lng" : 100.4569937
+               }
+            },
+            "name" : "V Spec Optical"
+        },
+        {
+            "formatted_address" : "MY Kedah, 16, Jalan 1, Taman Cengal Jaya, 08000 Sungai Petani, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.6299645,
+                  "lng" : 100.5130633
+               }
+            },
+            "name" : "V Power Autoparts Supply"
+        },
+        {
+            "formatted_address" : "1C, No. 94, Jalan Kelisa Ria, Taman Kelisa Ria, 08000 Sungai Petani, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.637711599999999,
+                  "lng" : 100.5584166
+               }
+            },
+            "name" : "V Likes Star Enterprise"
+        },
+        {
+            "formatted_address" : "383C - Ground Floor, Jln Perak, Jelutong, 11600 George Town, Penang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.3947129,
+                  "lng" : 100.3147835
+               }
+            },
+            "name" : "CLiNiC V-CARE"
+        },
+        {
+            "formatted_address" : "3044, Jalan Berjaya, Taman Seri Maju, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.351437000000001,
+                  "lng" : 100.4700019
+               }
+            },
+            "name" : "V Boss"
+        },
+        {
+            "formatted_address" : "300, Jalan Legenda 1, Lagenda Heights, 08000 Sungai Petani, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.657464699999999,
+                  "lng" : 100.5010206
+               }
+            },
+            "name" : "F & F"
+        },
+        {
+            "formatted_address" : "Lot 368, Jalan Bakar Arang, Kedah, 08000 Sungai Petani, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.624191499999999,
+                  "lng" : 100.4780117
+               }
+            },
+            "name" : "F & F"
+        },
+        {
+            "formatted_address" : "2316, Jln Serai Wangi 10, Taman Serai Wangi 3 & 4, 09400 Padang Serai, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.514844,
+                  "lng" : 100.535409
+               }
+            },
+            "name" : "F & L Hardware"
+        },
+        {
+         "formatted_address" : "3724, Jalan Sungai Nyior, 12100 Butterworth, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.4035487,
+               "lng" : 100.3747305
+            }
+         },
+         "name" : "F & N Beverages Marketing"
+        },
+        {
+            "formatted_address" : "Pusat Perniagaan Raja Uda, 110, Jalan Pusat Perniagaan Raja Uda 1, Kampung Paya, 12300 Butterworth, Pulau Pinang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.4178809,
+                  "lng" : 100.3794312
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color" : "#7B9EB0",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name" : "F - One Freight Forwarding"
+        },
+        {
+            "formatted_address" : "Blok F, Apartment Permata, Jln Perda Utama, Bandar Baru Perda, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.368970399999999,
+                  "lng" : 100.4279089
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color" : "#7B9EB0",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name" : "Block F Apartment Permata"
+        },
+        {
+            "formatted_address" : "465, Persiaran Cinta Sayang, 08000 Sungai Petani, Kedah, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.6626133,
+               "lng" : 100.5217497
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+         "name" : "F-Club"
+        },
+        {
+            "formatted_address" : "66, 67 & 68, Lorong Gamelan 3, Taman Ria Jaya, 08000 Sungai Petani, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.6518374,
+                  "lng" : 100.5146633
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color" : "#FF9E67",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name" : "Restoran N & N"
+        },
+        {
+            "formatted_address" : "3051, Kawasan Perusahaan Ringan Bakar Arang, 08000 Sungai Petani, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.6181306,
+                  "lng" : 100.476117
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color" : "#FF9E67",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name" : "N city cafe"
+        },
+        {
+            "formatted_address" : "131, Jalan Desa Aman S 14/7, Taman Desa Aman, 09410 Karangan, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.497761,
+                  "lng" : 100.6244196
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color" : "#4B96F3",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name" : "Wiring n Plumbing"
+        },
+        {
+            "formatted_address" : "3G, Lorong Delima 1, Taman Island Glades, 11700 Gelugor, Pulau Pinang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.3859129,
+                  "lng" : 100.3041087
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color" : "#FF9E67",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name" : "O & N Kopitiam"
+        },
+        {
+            "formatted_address" : "Taman Ketil Jaya, 09100 Kuala Ketil, Kedah, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.605993700000001,
+               "lng" : 100.6502405
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+         "name" : "Shop N' Save"
+        },{
+            "formatted_address" : "Pasar Awam Kampung Baru Bukit Mertajam, Pasar Awam Kampung Baru, tingkat 1, Jalan Kampung Baru, 14000 Bukit Mertajam, Penang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.348339000000001,
+                  "lng" : 100.473286
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color" : "#7B9EB0",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name" : "C & Y Sport Centre"
+        },
+        {
+            "formatted_address" : "107-4-11, Kompleks Adorna Gold, Jalan Gurdwara, Taman Windmill, 10300 George Town, Penang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.4051216,
+                  "lng" : 100.3259556
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color" : "#7B9EB0",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name" : "Y PE ENGINEERING"
+        },
+        {
+            "formatted_address" : "222, Jalan Batik 2, Taman Batik, 08000 Sungai Petani, Kedah, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.6305255,
+                  "lng" : 100.5388105
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color" : "#4B96F3",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name" : "G & Y ELECTRICAL SDN. BHD."
+        },
+        {
+            "geometry" : {
+                "location" : {
+                   "lat" : 5.5088291,
+                   "lng" : 100.5516768
+                }
+             },
+             "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+             "icon_background_color" : "#7B9EB0",
+             "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+             "name" : "Yeoh Y & Y Enterprise"
+        },{
+            "formatted_address" : "253G-4-3A, Premier Centre, Jalan Burma, 10350 George Town, Penang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.428089099999999,
+                  "lng" : 100.3142241
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color" : "#7B9EB0",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name" : "Y & L Consulting Services Sdn. Bhd."
+        },
+        {
+            "formatted_address" : "25, Lorong Delima Jati 3, Taman Delima Jati, 14100 Simpang Ampat, Pulau Pinang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.323277,
+                  "lng" : 100.433952
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color" : "#7B9EB0",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name" : "Y To Z Reflexology"
+        },
+        {
+            "formatted_address" : "32A, Persiaran Mahsuri 1/2, Bandar Sunway Tunas, 11900 Bayan Lepas, Pulau Pinang, Malaysia",
+            "geometry" : {
+               "location" : {
+                  "lat" : 5.323354,
+                  "lng" : 100.278015
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color" : "#7B9EB0",
+            "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name" : "D & Y Engineering M"
+        },
+        {
+         "formatted_address" : "No. 36, Lebuh Raya Kapal Off Jalan Chain Ferry, Pulau Pinang, 12100 Butterworth, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.4000973,
+               "lng" : 100.3793566
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "E Sern Solution & Engineering"
+        },
+        {
+         "formatted_address" : "10, Gat Lebuh Macallum, 10300 George Town, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.4066575,
+               "lng" : 100.3343679
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "E & E Chain Store Sdn Bhd"
+        },
+        {
+         "formatted_address" : "8, Jalan Selat, Taman Selat, 12000 Butterworth, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.401484099999999,
+               "lng" : 100.3672245
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "E-Me Konsult"
+        },
+        {
+         "formatted_address" : "17, Lebuh Kurau 5, Chai Leng Park, 13700 Perai, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.3857781,
+               "lng" : 100.3927022
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "E Feel Collection"
+        },{
+         "formatted_address" : "G-51, Kompleks Megamall Penang, 2828, Jln Baru, Bandar Perai Jaya, 13600 Seberang Perai, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.376596,
+               "lng" : 100.399435
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "H & L Shoes Collection"
+        },{
+         "formatted_address" : "ALAMAT:N/T 509-A, Jalan Pengkalan, M6 Bukit Tengah, 14000 Bukit Mertajam, Penang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.352139,
+               "lng" : 100.4239313
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "FORMULA H Enterprise"
+        },
+        {
+         "formatted_address" : "61, Lebuh Noordin, George Town, 10300 George Town, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.4117826,
+               "lng" : 100.3313213
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "H-Key Hardware Sdn. Bhd."
+        },{
+         "formatted_address" : "No. 4383, Jalan Ong Yi How, Taman Mesra Permai, 13400 Butterworth, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.430506299999999,
+               "lng" : 100.3922787
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "H & H Air Compressor"
+        },
+        {
+         "formatted_address" : "1216, Jln Perda Utama, Bandar Baru Perda, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.3680278,
+               "lng" : 100.4260348
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "H TWO ENTERPRISE"
+        },
+        {
+         "formatted_address" : "92, Jln Tan Sri Teh Ewe Lim, Jelutong, 11600 George Town, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.3924578,
+               "lng" : 100.3068005
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+         "name" : "Cameron Highland Kopitiam"
+        },
+        {
+         "formatted_address" : "69, Jalan Anson, 10400 George Town, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.416335,
+               "lng" : 100.3211322
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Cameron Products Trading (Florist & Flower Wholesaler)"
+        },
+        {
+         "formatted_address" : "69-A, 69, Jln Trengganu, 10460 George Town, Penang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.404869,
+               "lng" : 100.3083444
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Old Cameron Coffee Shop"
+        },
+        {
+         "formatted_address" : "5, Lorong Semarak Api 1, Bandar Baru Air Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.384576699999999,
+               "lng" : 100.2841758
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Kedai Kopi Cameron Highland"
+        },{
+         "formatted_address" : "Taman Teluk Molek, 13050 Butterworth, Penang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.4723864,
+               "lng" : 100.3794522
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Cendawan goreng cameron"
+        },{
+         "formatted_address" : "Cameron Highlands, Pahang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 4.4721201,
+               "lng" : 101.3801441
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Cameron Highlands"
+        },
+        {
+         "formatted_address" : "1037, Jalan Padang Benggali, Kampung Benggali, 13100 Penaga, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.5246847,
+               "lng" : 100.3799819
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Cendawan goreng cameron"
+        },
+        {
+         "formatted_address" : "18, Lebuh Kurau 3 Chai Leng Park Malaysia, Taman Chai Leng, 13700 Perai, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.3854294,
+               "lng" : 100.3925052
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "J & W Kitchen Accessories And Design"
+        },
+        {
+         "formatted_address" : "Kompleks Megamall Penang, 2828, Jln Baru, Bandar Perai Jaya, 13600 Seberang Perai, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.377540499999999,
+               "lng" : 100.3995992
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "J Mobile Enterprise"
+        },
+        {
+         "formatted_address" : "Sunway Carnival Mall, 3068, Jalan Todak, 13700 Seberang Jaya, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.398653899999999,
+               "lng" : 100.3977889
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "S & J"
+        },
+        {
+         "formatted_address" : "4663, Jalan Raja Uda, Taman Bunga Raya, 12300 Butterworth, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.4364026,
+               "lng" : 100.3859398
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "J Kids House"
+        },
+        {
+         "formatted_address" : "84, Lorong Segar Indah 2, Taman Segar Indah, 13400 Butterworth, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.426511899999999,
+               "lng" : 100.3911804
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "J.Sai Fancy & Butik"
+        },{
+         "formatted_address" : "2494, Jalan Sultan Azlan Shah, Kampung Gelugor, 11700 Gelugor, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.369153,
+               "lng" : 100.3104329
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "J Home Centre"
+        },
+        {
+         "formatted_address" : "38, Lebuh Kurau 3 Chai Leng Park Malaysia, Chai Leng Park, 13700 Perai, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.3857194,
+               "lng" : 100.3918985
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Hai-O Raya Bhd (Chai Leng Park Branch)"
+        },
+        {
+         "formatted_address" : "Pusat Perniagaan Raja Uda, No. 194, Ground Floor, Pusat Perniagaan, Jalan Raja Uda, 12300 Butterworth, Penang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.421846599999999,
+               "lng" : 100.3817178
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Hai-O Raya Bhd (Raja Uda Branch)"
+        },
+        {
+         "formatted_address" : "6169, Ground Floor, Jln Bagan Lallang, Taman Mesra Jaya, 13400 Butterworth, Pulau Pinang, Malaysia",
+         "geometry" : {
+            "location" : {
+               "lat" : 5.4303419,
+               "lng" : 100.39684
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "T & O Solution Sdn Bhd"
         }
     ]
 }

@@ -41,7 +41,7 @@ const AutocompleteInput = ({locations, onPlaceSelected, popValue}) => {
       inputValue={inputValue}
       onInputChange={(event, newInputValue) => {
         setInputValue(newInputValue);
-        dispatch(fetchPlaces(newInputValue))
+       // dispatch(fetchPlaces(newInputValue))
       }}
       renderOption={(props, option) => (
         <Box component="li" {...props}>

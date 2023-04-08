@@ -14,12 +14,8 @@ export const fetchPlaces = (query) => async (dispatch) => {
     console.log('sending')
      await fetch(`${googleURL}/json?query=${query}&key=${process.env.REACT_APP_GOOGLE_API_KEY}`,
       {
-      method: "GET",
-      headers: {
-        'Access-Control-Allow-Origin' : "*",
-        'Content-Type': 'application/json',
-        mode: 'no-cors'
-      }})
+      mode: 'no-cors'
+      })
       .then((response) => response.json())
       .then((data) => {
         dispatch({ type: FETCH_PLACES_SUCCESS, payload: data.results });

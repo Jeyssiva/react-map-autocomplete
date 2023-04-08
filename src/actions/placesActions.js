@@ -1,6 +1,6 @@
 import { FETCH_PLACES_SUCCESS, FETCH_PLACES_FAILURE } from "../constants/placesConstants";
 
-export const fetchPlaces = (query) => async (dispatch) => {
+export const fetchPlaces = (query = 'Batu') => async (dispatch) => {
   try {
     // await fetch('locations.json')
     // await fetch(proxyUrl + apiUrl)
@@ -11,7 +11,7 @@ export const fetchPlaces = (query) => async (dispatch) => {
     const googleURL = process.env.NODE_ENV === 'development' ? '/api/place/textsearch/' :
     `${process.env.REACT_APP_GOOGLE_MAP_URL}/api/place/textsearch`
     console.log(googleURL)
-    console.log('sending1234')
+    console.log('sending1234d')
      await fetch(`${googleURL}/json?query=${query}&key=${process.env.REACT_APP_GOOGLE_API_KEY}`,
       {
       mode: 'no-cors'

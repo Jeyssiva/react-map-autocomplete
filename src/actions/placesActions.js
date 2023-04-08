@@ -17,7 +17,7 @@ export const fetchPlaces = (query) => async (dispatch) => {
       headers: {
         'Access-Control-Allow-Origin' : "*",
         'Content-Type': 'application/json',
-        mode: 'cors'
+        mode: 'no-cors'
       }})
       .then((response) => response.json())
       .then((data) => {

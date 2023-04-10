@@ -85,7 +85,6 @@ const MapContainer = ({classes, searchResults}) => {
                 })
             }
         </List>
-        {/* <Button onClick={onClearHistory} className={classes.clearHistory}>Clear</Button> */}
        </Popover>
         <GoogleMap mapContainerStyle={mapStyles} zoom={7} center={center}>
         <Marker position={marker} />
@@ -100,5 +99,5 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default compose(withStyles(styles), connect(mapStateToProps, null))
+export default compose(withStyles(styles), connect(mapStateToProps))
 (MapContainer);

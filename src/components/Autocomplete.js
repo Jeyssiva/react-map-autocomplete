@@ -4,7 +4,6 @@ import Autocomplete from "@material-ui/lab/Autocomplete";
 import { connect, useDispatch } from "react-redux";
 import { LocationOn } from "@material-ui/icons"
 import { GET_SEARCH_RESULT } from "../constants/placesConstants";
-import { fetchPlaces } from "../actions/placesActions";
 
 const AutocompleteInput = ({locations, onPlaceSelected, popValue}) => {
   const [value, setValue] = React.useState(null)
@@ -14,17 +13,6 @@ const AutocompleteInput = ({locations, onPlaceSelected, popValue}) => {
   useEffect(() => {
     setInputValue(popValue)
   }, [popValue])
-
-  // useEffect(() => {
-  //   const script = document.createElement('script');
-  //   script.src = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${inputValue}&key=${process.env.REACT_APP_GOOGLE_API_KEY}&callback=handleResponse`;
-  //   document.body.appendChild(script);
-
-  //   return () => {
-  //     // Clean up the script tag when the component is unmounted
-  //     document.body.removeChild(script);
-  //   };
-  // }, [inputValue]);
 
   return (
     <Autocomplete
@@ -41,7 +29,6 @@ const AutocompleteInput = ({locations, onPlaceSelected, popValue}) => {
       inputValue={inputValue}
       onInputChange={(event, newInputValue) => {
         setInputValue(newInputValue);
-       // dispatch(fetchPlaces(newInputValue))
       }}
       renderOption={(props, option) => (
         <Box component="li" {...props}>
@@ -68,4 +55,4 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default connect(mapStateToProps, null) (AutocompleteInput);
+export default connect(mapStateToProps) (AutocompleteInput);

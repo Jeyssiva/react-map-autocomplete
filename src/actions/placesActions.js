@@ -1,7 +1,6 @@
 import { FETCH_PLACES_SUCCESS, FETCH_PLACES_FAILURE } from "../constants/placesConstants";
 
 export const fetchPlaces = () => async (dispatch) => {
-  console.log('well')
   try {
      const response = await fetch('locations.json')
       .then((response) => response.json())

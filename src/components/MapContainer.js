@@ -36,7 +36,7 @@ const MapContainer = ({classes, searchResults}) => {
 
   useEffect(()=>{
     dispatch(fetchPlaces());
-  },[])
+  },[dispatch])
 
   const mapStyles = {
     height: "400px",
@@ -99,5 +99,4 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default compose(withStyles(styles), connect(mapStateToProps))
-(MapContainer);
+export default compose(withStyles(styles), connect(mapStateToProps))(MapContainer);

@@ -2,7 +2,7 @@ import { FETCH_PLACES_SUCCESS, FETCH_PLACES_FAILURE } from "../constants/placesC
 
 export const fetchPlaces = () => async (dispatch) => {
   try {
-     const response = await fetch('locations.json')
+      await fetch('locations.json')
       .then((response) => response.json())
       .then((data) => {
         dispatch({ type: FETCH_PLACES_SUCCESS, payload: data.results });
